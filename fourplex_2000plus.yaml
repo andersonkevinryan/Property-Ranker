@@ -1,0 +1,16 @@
+name: Fourplex_2000_plus
+units_min: 4
+units_max: 4
+year_built_min: 2000
+sqft_min: 2800
+price_max: 1000000
+city: ""     # leave blank for any
+state: ""    # 2-letter, leave blank for any
+financial:
+  loan_constant: 0.081
+  opex_ratio_hint: 0.33
+  tax_annual_hint: 4000
+  ins_annual_hint: 1800
+  hoa_annual_hint: 0
+  other_income_m_hint: 50
+kill_switches: true

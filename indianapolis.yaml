@@ -1,0 +1,18 @@
+msa_id: indy
+name: Indianapolis-Carmel-Anderson, IN
+counties: [18097,18057,18063]
+gates:
+  rent_control: false
+  eviction_weeks_max: 9
+  vacancy_max: 0.08
+  rent_to_income_max: 0.33
+  hoi_pct_rc_max: 0.02
+  wind_hail_deductible_max: 0.02
+  dscr_min: 1.30
+  pr_target_max: 18.0
+  cap_min: 0.065
+  supply_absorption_rule: deliveries_le_absorption
+links:
+  assessor: "https://maps.indy.gov/AssessorPropertyCards/"
+  permits: "https://permits.bsnlouisville.org"  # placeholder, swap to Indy Accela in next step
+  court_evictions: "https://public.courts.in.gov/mycase"  # placeholder

@@ -1,0 +1,18 @@
+msa_id: upstate_sc
+name: Greenville-Spartanburg, SC
+counties: [45045,45083]
+gates:
+  rent_control: false
+  eviction_weeks_max: 9
+  vacancy_max: 0.07
+  rent_to_income_max: 0.33
+  hoi_pct_rc_max: 0.02
+  wind_hail_deductible_max: 0.02
+  dscr_min: 1.30
+  pr_target_max: 18.0
+  cap_min: 0.07
+  supply_absorption_rule: deliveries_le_absorption
+links:
+  assessor: "https://www.greenvillecounty.org/RealProperty/"
+  permits: "https://www.greenvillesc.gov/964/Building-Codes"  # placeholder
+  court_evictions: "https://publicindex.sccourts.org/"
